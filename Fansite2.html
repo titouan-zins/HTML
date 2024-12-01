@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fansite Pierre Gasly</title>
+    <link rel="stylesheet" href="Fansite2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Peralta&family=Rasa:ital,wght@0,300..700;1,300..700&family=Tangerine&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Pierre Gasly</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="Fansite2.html">Accueil</a></li>
+                <li><a href="Actu.html">Actualités</a></li>
+                <li><a href="resultat.html">Résultats</a></li>
+                <li><a href="Carriere.html">Carrière</a></li>
+                <li><a href="extra.html">Extra-sportif</a></li>
+                <li><a href="galerie.html">Galerie photo</a></li>
+            </ul>
+        </div>
+        <img src="image/logof1.png.png" alt="Menu" 
+        class="menu-hamburger">
+    </nav>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('active')
+    });
+</script>
+
+
+
+</html>
